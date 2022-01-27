@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "iconsFont";
+  src: url("../fonts/iconsFont.eot?d5hnpm");
+  src: url("../fonts/iconsFont.eot?d5hnpm#iefix") format("embedded-opentype"),
+    url("../fonts/iconsFont.ttf?d5hnpm") format("truetype"),
+    url("../fonts/iconsFont.woff?d5hnpm") format("woff"),
+    url("../fonts/iconsFont.svg?d5hnpm#iconsFont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "iconsFont" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-arrowtop:before {
+  content: "\e900";
+}
+._icon-facebook:before {
+  content: "\e902";
+}
+._icon-ga9:before {
+  content: "\e903";
+}
+._icon-hausavto:before {
+  content: "\e904";
+}
+._icon-instag:before {
+  content: "\e905";
+}
+._icon-komp:before {
+  content: "\e906";
+}
+._icon-krisha:before {
+  content: "\e907";
+}
+._icon-ok:before {
+  content: "\e908";
+}
+._icon-post:before {
+  content: "\e909";
+}
+._icon-sunsnow:before {
+  content: "\e90a";
+}
+._icon-traktor:before {
+  content: "\e90b";
+}
+._icon-vk:before {
+  content: "\e90c";
+}
+._icon-yuotub:before {
+  content: "\e90d";
+}
+._icon-cross:before {
+  content: "\ea0f";
+}
